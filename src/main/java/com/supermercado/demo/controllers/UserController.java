@@ -29,7 +29,7 @@ public class UserController {
 
     @GetMapping("/")
     public String home() { 
-        return "create";
+        return "index";
     }
 
     @GetMapping("/list")
