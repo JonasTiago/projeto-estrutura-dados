@@ -27,7 +27,7 @@ public class UserController {
 		this.userService = userService;
 	}
 
-    @GetMapping("/create")
+    @GetMapping("/")
     public String home() { 
         return "create";
     }
@@ -44,7 +44,7 @@ public class UserController {
     }
     
 
-    @PostMapping("/create")
+    @PostMapping("/")
     public String createUser(@Valid UserDTO body) {
         
         userService.save(body);
