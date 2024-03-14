@@ -1,0 +1,40 @@
+body {
+    padding: 5%;
+}
+
+form {
+    width: 35%;
+    margin-bottom: 30px;
+}
+button {
+    border-bottom: none;
+}
+
+.home{
+    position: absolute;
+    right: 35%;
+    margin: 35px;
+}
+
+#save{
+    margin-right: -60px;
+}
+
+.yellow{
+    color: black;
+    background-color: yellow;
+    border: 0;
+}
+
+.green{
+    background-color: green;
+    border: 0;
+}
+
+#create{
+    background-color: red;
+    position: absolute;
+    right: 20%;
+    top:20%;
+    border: 0;
+}
