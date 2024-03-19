@@ -19,15 +19,16 @@ Clone o projeto
   git clone https://github.com/JonasTiago/projeto-estrutura-dados.git
 
 ```
-## Front 
-
-http://localhost:8080/
 
 Entre no diretório do projeto
 
 ```bash
   cd my-project
 ```
+
+## Front 
+
+http://localhost:8080/
 
 
 
